@@ -1,9 +1,7 @@
 package learn.game.players;
 
-public class Player {
-    private final String name;
+public interface Player {
 
-    public Player(String name) {
-        this.name = name;
-    }
+
+    String getName();
 }
